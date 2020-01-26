@@ -1,6 +1,7 @@
 let grid = undefined;
-let stroke1 = prompt("enter a basic color", "orchid");
-let stroke2 = prompt("enter another basic color", "deepskyblue");
+let stroke1 = prompt("enter the snowcreature's outline color", "orchid");
+let stroke2 = prompt("enter the snowcreature's eye color", "deepskyblue");
+let stroke3 = prompt("enter snow baby stroke color", "plum");
 
 function setup() {
   createCanvas(1000, 800);
@@ -78,7 +79,7 @@ function setup() {
     //snowbaby//
 
     //body
-    stroke(stroke2);
+    stroke(stroke3);
     strokeWeight(10);
     fill("#E0FFFF");
     ellipse(850, 540, 200);
@@ -91,7 +92,7 @@ function setup() {
     ellipse(900, 650, 50);
 
     //eyes
-    stroke(stroke1);
+    stroke(stroke2);
     strokeWeight(25);
     //left
     point(825, 405);
