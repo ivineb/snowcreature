@@ -6,7 +6,7 @@ let stroke3 = prompt("enter snow baby stroke color", "plum");
 function setup() {
   createCanvas(1000, 800);
   background("#E6E6FA");
-  grid = loadImage("images/100px_grid.png"); 
+  grid = loadImage("images/100px_grid.png");
  }
 
  function draw() {
@@ -66,7 +66,7 @@ function setup() {
     fill('#fae');
     noStroke();
     quad(480, 304, 507, 305, 507, 530, 420, 530);
-   
+
     //house
     fill('#4169E1');
     triangle(158, 300, 50, 400, 250, 400);
@@ -86,7 +86,7 @@ function setup() {
 
     // head
     ellipse(850, 420, 120);
-   
+
     //legs
     ellipse(800, 650, 50);
     ellipse(900, 650, 50);
@@ -115,10 +115,4 @@ function setup() {
     strokeWeight(12);
     line(750, 480, 720, 450);
     line(950, 480, 970, 450);
-
-
-
-
-
-
    }
